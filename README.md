@@ -1,7 +1,21 @@
 # crowd-sourced-review-site
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Crowd-Sourced Review Site
+
+Create an application where users may rate local restaurants.
+
+* The restaurant will have many ratings.
+
+* Ratings may be any metric of your choosing, and could include a comment/explanation.
+
+* Use a helper to display nicely formatted timestamps, and/or represent ratings visually (ie: display stars, or thumbs up/thumbs down).
+
+* Include at least one computed property.
+
+* Use a service to allow users to create a list of “favorite restaurants”.
+
+* There should be an option to add new restaurants/things to review. This can either be an admin-style page, or something available to all users.
+
 
 ## Prerequisites
 
@@ -16,7 +30,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd crowd-sourced-review-site`
+* `cd message-board`
 * `npm install`
 * `bower install`
 
@@ -24,29 +38,3 @@ You will need the following things properly installed on your computer.
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
