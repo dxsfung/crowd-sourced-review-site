@@ -1,6 +1,6 @@
 # crowd-sourced-review-site
 
-Crowd-Sourced Review Site
+Crowd-Sourced Review Site (My Restaurant Review)
 
 Create an application where users may rate local restaurants.
 
@@ -30,7 +30,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd message-board`
+* `cd <repository-url>`
 * `npm install`
 * `bower install`
 

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+  background-color: #fff;
+}
+
+.login-tile {
+  height: 100px;
+  border-color: #83d8d3;
+  font-size: 60px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #3b928d !important;
+}
