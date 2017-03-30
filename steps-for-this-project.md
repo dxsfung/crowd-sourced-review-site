@@ -20,3 +20,5 @@ ember g route index
 ember g route admin
 ember g route user
 ember g model restaurant
+
+edit and create data.json
