@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-body {
+/*body {
   background-color: #fff;
+}*/
+/*body {
+    background-image: url("images/food1.jpg");
+}*/
+body {
+    background-image: url("https://media.giphy.com/media/lGbz7CsaCj4Tm/giphy.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
+
 
 .login-tile {
   height: 100px;
@@ -12,4 +22,10 @@ body {
 h1 {
   font-family: 'Lobster', cursive;
   color: #3b928d !important;
+}
+h3 {
+  color: white;
+}
+ul {
+    color: white; text-shadow: black 0.2em 0.2em 0.2em
 }

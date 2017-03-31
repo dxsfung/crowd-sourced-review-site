@@ -1,13 +1,21 @@
 <h3> What the people say</h3>
 <ul>
   {{#each model.reviews as |review|}}
-    <li>Comment: {{review.comment}} - Rating: {{review.rating}} -  Restaurent: {{review.restaurant}} - Date: {{review.date}}</li>
+    <li>Comment: {{review.comment}} - Rating: {{review.rating}} -  Restaurent: {{review.restaurant}} - Date: {{review.date}}
+    - Reviewer: {{review.user}}
+    </li>
   {{/each}}
 </ul>
 <hr>
 <h3> Our list of restaurants</h3>
 <ul>
   {{#each model.restaurants as |restaurant|}}
-    <li>Restaurant: {{restaurant.restaurant}} - Average Rating: {{restaurant.averageRating}} </li>
+    <li>Restaurant: {{restaurant.restaurant}} - Average Rating: {{restaurant.averageRating}}
+
+     </li>
   {{/each}}
 </ul>
+<hr>
+<div class="col-xs-12 login-tile thumbnail">
+  <p class="text-center">{{#link-to 'index'}}<button class="btn btn-info"><i class="fa fa-eye" aria-hidden="true"></i> Home </button>{{/link-to}}</p>
+</div>
